@@ -2,6 +2,8 @@
 
 个人知识库，用 Markdown 记录、用 Git 管理。
 
+> 在线站点：https://164971963-ship-it.github.io/knowledge-base/
+
 ## 目录
 
 | 目录 | 用途 |
