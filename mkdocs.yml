@@ -1,0 +1,56 @@
+site_name: 我的知识库
+site_description: 个人知识库，用 Markdown 记录、用 Git 管理
+site_url: https://164971963-ship-it.github.io/knowledge-base/
+docs_dir: docs
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - toc:
+      permalink: true
+
+nav:
+  - 首页: index.md
+  - 00-Inbox 随手记: inbox.md
+  - 01-学习:
+      - 学习总览: study/index.md
+      - 复变函数:
+          - 复变函数总览: study/complex-analysis/index.md
+          - 线上学习计划: study/complex-analysis/study-plan.md
+  - 02-编程: programming.md
+  - 03-工作: work.md
+  - 99-模板:
+      - 模板说明: note-templates/index.md
+      - 笔记模板: note-templates/note-template.md
