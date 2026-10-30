@@ -52,7 +52,7 @@ nav:
   - 03-工作: work.md
   - 04-投资:
       - 投资总览: investment/index.md
-      - 科创50 高风险执行清单: investment/kc50-high-risk-plan.md
+      - 高风险执行清单: investment/kc50-high-risk-plan.md
   - 99-模板:
       - 模板说明: note-templates/index.md
       - 笔记模板: note-templates/note-template.md
