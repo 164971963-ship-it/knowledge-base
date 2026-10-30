@@ -1,6 +1,5 @@
 site_name: 我的知识库
 site_description: 个人知识库，用 Markdown 记录、用 Git 管理
-site_url: https://164971963-ship-it.github.io/knowledge-base/
 docs_dir: docs
 
 theme:
@@ -51,6 +50,9 @@ nav:
           - 线上学习计划: study/complex-analysis/study-plan.md
   - 02-编程: programming.md
   - 03-工作: work.md
+  - 04-投资:
+      - 投资总览: investment/index.md
+      - 科创50 高风险执行清单: investment/kc50-high-risk-plan.md
   - 99-模板:
       - 模板说明: note-templates/index.md
       - 笔记模板: note-templates/note-template.md
